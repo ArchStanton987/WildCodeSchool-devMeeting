@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     font-family: sans-serif;
@@ -29,9 +28,9 @@ header a {
     display: none;
 }
 .section-assoc {
-    height: 820px;    
+    height: 820px;
 }
-  .Evènements {
+.Evènements {
     text-align: center;
 }
 .para {
@@ -53,14 +52,14 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;    
-}  
+}
 footer {
-    background-color:#595858;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
+	background-color:#595858;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
 }
 footer a {
 	color:lightgrey;
