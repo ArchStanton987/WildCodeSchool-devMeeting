@@ -16,16 +16,31 @@ header i {
     font-size: 1em;
     padding: 0.5em;
 }
-header a {
+#headerOne {
     text-decoration: none;
     color: lightgray;
     padding: 0.5em;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) 
 }
-.burgerMenu {
-    display: none;
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: lightgray;
+    padding: 0.5em;
+    font-size: 0.7em;
 }
 
 .Evènements {
@@ -65,35 +80,48 @@ footer {
 	justify-content: center;
 	align-items: center;
 	padding: 15px;
+    margin-top: 20%;
 }
 footer a {
 	color:lightgrey;
 	text-decoration: none;
 	font-size: 0.8em;
 }
+
 .fab {
 	color:white;
-	font-size: 2em;
+	font-size: 3em;
 	padding-right: 5px;
 }
 #divIcones {
     padding: 10px;
 }
-
-
-@media screen and (min-width: 769px) {
-
+    a:hover {
+    color: white ;
+}
+@media screen and (min-width:769px) {
     body {
-        margin-right: auto;
-        margin-left: auto;
-        width: 960px;
+        background-color: lightgrey;
     }
-
-    .article-assoc {
+    .layout {
+        background-color: white;
+        max-width: 960px;
+        margin: 0 auto;
+        box-shadow: 5px 5px 10px #595858;
+    }
+    header nav {
+        height: 4em;
+    }
+    header a {
+        font-size: 1.8em;
+    }
+    nav ul li a {
+        font-size: 1.2em;
+    }
+  .article-assoc {
         display: flex;
         flex-direction: row;
         align-items: center;
         padding: 2%;    
     }
-
 }
