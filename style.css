@@ -27,9 +27,7 @@ header a {
 .burgerMenu {
     display: none;
 }
-.section-assoc {
-    height: 820px;
-}
+
 .Evènements {
     text-align: center;
 }
@@ -44,9 +42,16 @@ header a {
 .title-assoc {
     text-align: center;
 }
+
+.section-assoc {
+    height: 820px;
+}
+
 .text-article {
-    text-align: center;
+    text-align: justify;
     width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .article-assoc {
     display: flex;
@@ -73,4 +78,22 @@ footer a {
 }
 #divIcones {
     padding: 10px;
+}
+
+
+@media screen and (min-width: 769px) {
+
+    body {
+        margin-right: auto;
+        margin-left: auto;
+        width: 960px;
+    }
+
+    .article-assoc {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2%;    
+    }
+
 }
