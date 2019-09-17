@@ -28,12 +28,11 @@ header a {
     display: none;
 }
 .section-assoc {
-    height: 820px;  
+    height: 820px;
 }
-  .Evènements {
+.Evènements {
     text-align: center;
 }
-
 .para {
 }
 .imgEven {
@@ -49,11 +48,10 @@ header a {
     text-align: center;
     width: 100%;
 }
-
 .article-assoc {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
 }
 footer {
 	background-color:#595858;
@@ -63,7 +61,6 @@ footer {
 	align-items: center;
 	padding: 15px;
 }
-
 footer a {
 	color:lightgrey;
 	text-decoration: none;
@@ -74,8 +71,6 @@ footer a {
 	font-size: 2em;
 	padding-right: 5px;
 }
-
 #divIcones {
-	padding: 10px;
+    padding: 10px;
 }
-
