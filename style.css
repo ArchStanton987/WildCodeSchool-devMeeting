@@ -2,75 +2,102 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background: #595858;
 }
-header nav {
-}
+
+header nav {}
+
 header i {
     color: lightgray;
     font-size: 1em;
     padding: 0.5em;
 }
+
 header a {
     text-decoration: none;
     color: lightgray;
     padding: 0.5em;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%) 
+    transform: translateX(-50%)
 }
+
 .burgerMenu {
     display: none;
 }
+
 .section-assoc {
     height: 820px;
 }
+
+.para {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .Evènements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-eve {
     text-align: center;
 }
-.para {
-}
-.imgEven {
-    width: 80px;
-    height: 80px;
-    border: 20px;
-    margin: 0px;
-}
+
 .title-assoc {
     text-align: center;
 }
+
 .text-article {
     text-align: center;
     width: 100%;
 }
+
 .article-assoc {
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
 }
+
 footer {
-	background-color:#595858;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 15px;
+    background-color: #595858;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
+
 footer a {
-	color:lightgrey;
-	text-decoration: none;
-	font-size: 0.8em;
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 0.8em;
 }
+
 .fab {
-	color:white;
-	font-size: 2em;
-	padding-right: 5px;
+    color: white;
+    font-size: 2em;
+    padding-right: 5px;
 }
+
 #divIcones {
     padding: 10px;
+}
+
+@media screen and (min-width: 769px) {
+    .Evènements {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2%;
+    }
 }
