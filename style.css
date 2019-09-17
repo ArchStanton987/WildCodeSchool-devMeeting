@@ -33,6 +33,18 @@ header a {
     
     
 }
+  .Evènements {
+    text-align: center;
+}
+
+.para {}
+
+.imgEven {
+    width: 80px;
+    height: 80px;
+    border: 20px;
+    margin: 0px;
+}
 
 .title-assoc {
     text-align: center;
@@ -83,3 +95,4 @@ footer a
 
 padding: 10px;
   }
+
