@@ -75,19 +75,24 @@ footer {
 	justify-content: center;
 	align-items: center;
 	padding: 15px;
+    margin-top: 20%;
 }
 footer a {
 	color:lightgrey;
 	text-decoration: none;
 	font-size: 0.8em;
 }
+
 .fab {
 	color:white;
-	font-size: 2em;
+	font-size: 3em;
 	padding-right: 5px;
 }
 #divIcones {
     padding: 10px;
+}
+    a:hover {
+    color: white ;
 }
 @media screen and (min-width:769px) {
     body {
@@ -108,5 +113,4 @@ footer a {
     nav ul li a {
         font-size: 1.2em;
     }
-
 }
