@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-size: 12px;
 }
 
 header {
@@ -45,29 +46,11 @@ nav ul li a {
     padding: 0.5em;
     font-size: 0.7em;
 }
-.para {
-    text-align: justify;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.Evènements {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.title-eve {
-    text-align: center;
-}
 
 .title-assoc {
     text-align: center;
 }
-
-.section-assoc {
-    height: 820px;
-}
+      
 .text-article {
     text-align: justify;
     width: 100%;
@@ -79,6 +62,13 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2em 0.5em;
+    border: solid #8080801a 1px;
+    border-radius: 5px;
+    padding: 1em;
+    background-color: #d3d3d32b;
+
+    
 }
 
 footer {
@@ -101,6 +91,10 @@ footer a {
 	color:white;
 	font-size: 3em;
 	padding-right: 5px;
+}
+
+hr {
+    width: 60%;
 }
 
 #divIcones {
@@ -129,16 +123,30 @@ a:hover {
         font-size: 1.2em;
     }
   .article-assoc {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 2%;    
-    }
-  
-    .Evènements {
+        width: 50%;
         display: flex;
         flex-direction: row;
         align-items: center;
         padding: 2%;
+        box-shadow: 5px 5px 10px lightgrey;
+        margin: 20px auto;
+        
+
     }
+    .section-assoc {
+        
+        margin-top: 5%;
+        height: 820px;
+        margin-bottom: 0;
+        justify-content: center;
+        
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+
+
+    
 }
