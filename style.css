@@ -2,15 +2,18 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background: #595858;
 }
-header nav {
-}
+
+header nav {}
+
 header i {
     color: lightgray;
     font-size: 1em;
@@ -42,18 +45,22 @@ nav ul li a {
     padding: 0.5em;
     font-size: 0.7em;
 }
+.para {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .Evènements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-eve {
     text-align: center;
 }
-.para {
-}
-.imgEven {
-    width: 80px;
-    height: 80px;
-    border: 20px;
-    margin: 0px;
-}
+
 .title-assoc {
     text-align: center;
 }
@@ -61,18 +68,19 @@ nav ul li a {
 .section-assoc {
     height: 820px;
 }
-
 .text-article {
     text-align: justify;
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
 }
+
 .article-assoc {
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
 }
+
 footer {
 	background-color:#595858;
 	display: flex;
@@ -82,10 +90,11 @@ footer {
 	padding: 15px;
     margin-top: 20%;
 }
+
 footer a {
-	color:lightgrey;
-	text-decoration: none;
-	font-size: 0.8em;
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 0.8em;
 }
 
 .fab {
@@ -93,10 +102,11 @@ footer a {
 	font-size: 3em;
 	padding-right: 5px;
 }
+
 #divIcones {
     padding: 10px;
 }
-    a:hover {
+a:hover {
     color: white ;
 }
 @media screen and (min-width:769px) {
@@ -123,5 +133,12 @@ footer a {
         flex-direction: row;
         align-items: center;
         padding: 2%;    
+    }
+  
+    .Evènements {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2%;
     }
 }
