@@ -42,9 +42,7 @@ nav ul li a {
     padding: 0.5em;
     font-size: 0.7em;
 }
-.section-assoc {
-    height: 820px;
-}
+
 .Evènements {
     text-align: center;
 }
@@ -59,9 +57,16 @@ nav ul li a {
 .title-assoc {
     text-align: center;
 }
+
+.section-assoc {
+    height: 820px;
+}
+
 .text-article {
-    text-align: center;
+    text-align: justify;
     width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .article-assoc {
     display: flex;
@@ -112,5 +117,11 @@ footer a {
     }
     nav ul li a {
         font-size: 1.2em;
+    }
+  .article-assoc {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 2%;    
     }
 }
