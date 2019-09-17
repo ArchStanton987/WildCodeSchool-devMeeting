@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #595858;
+}
+header nav {
+}
+header i {
+    color: lightgray;
+    font-size: 1em;
+    padding: 0.5em;
+}
+header a {
+    text-decoration: none;
+    color: lightgray;
+    padding: 0.5em;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) 
+}
+.burgerMenu {
+    display: none;
+}
