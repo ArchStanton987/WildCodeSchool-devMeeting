@@ -115,6 +115,30 @@ hr {
 a:hover {
     color: white ;
 }
+#lienModal {
+    color: lightgrey;
+    font-size: 0.8em;
+}
+#lienModal:hover {
+    color: white;
+    cursor: pointer; 
+}
+.far:hover {
+    cursor: pointer;
+}
+#aPropos{
+    display: none;
+    position: absolute;
+    bottom: : 0%;
+    left: 25%;
+    background: white;
+    width: 50%;
+    border-radius: 15px;
+    padding-left:1em;
+    padding-right: 1em ; 
+    text-align: justify;
+    box-shadow: 5px 5px 10px lightgrey;
+}
 @media screen and (min-width:769px) {
     body {
         background-color: lightgrey;
