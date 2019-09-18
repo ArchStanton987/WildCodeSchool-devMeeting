@@ -22,7 +22,7 @@
                         <li><a href="#evenements" >Evènements</a></li>
                         <li><a href="#associations" >Associations</a></li>
                     </ul>
-                    <a href="devmeeting.com" id="headerOne">DevMeeting.com</a>
+                    <a href="devmeeting.com" id="headerOne" onclick="popup()">DevMeeting.com</a>
                 </nav>
             </div>
         </header>
@@ -63,20 +63,36 @@
             <p class="text-article">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et saepe modi, ab doloribus nulla iusto exercitationem perspiciatis aliquam, cumque maiores, quas a! Et ut voluptatibus, sit quibusdam accusantium libero officia?</p>
         </article>
     </section>
-
+    <div id="aPropos"><div><i id="close" class="far fa-times-circle" style="font-size: 1.4em;"></i><span style="font-weight: bold;"> A propos...</span></div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip</p></div>
     <footer>
-        <a href="about-devmeeting.html">A propos de DevMeeting.com</a>
-        <a href="legal.html">Mentions légales</a>
+        <div id="lienModal" onclick="modal()">A propos de DevMeeting.com</div>
+        <a href="">Mentions légales</a>
 
         <div id="divIcones">
             <a href="http://www.facebook.com"><i class="fab fa-facebook"></i></a>
             <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
             <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
         </div>
-
     </footer>
 
 </div>
 </body>
 
 </html>
+
+<script type="text/javascript">
+    
+    function modal(){
+        document.getElementById('aPropos').style.display='block';
+    }
+
+    function closeModal(){
+        document.getElementById('aPropos').style.display='none';
+    }
+
+    document.getElementById('close').addEventListener('click', closeModal);
+
+
+</script>
