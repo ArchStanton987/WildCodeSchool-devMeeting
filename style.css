@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 * {
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
+    font-family: "Quicksand";
 }
 body {
     margin: 0;
@@ -18,7 +20,7 @@ nav {
     width: 100%;
     background-color: #595858;
     box-shadow: 0px 0px 20px rgba(0,0,0, 0.2);
-    background: linear-gradient(to bottom, #595858, rgb(121, 121, 121), rgb(148, 148, 148)) ;
+    background:linear-gradient(90deg, #f7971e 0%,#ffd200 100% );
 }
 .header-layout {
     max-width: 960px;
@@ -126,11 +128,11 @@ a:hover {
 }
 @media screen and (min-width:769px) {
     body {
-        background-color: lightgrey;
+        background:linear-gradient(to bottom, #56ab2f 0%,#a8e063 100% );
     }
     .layout {
         background-color: white;
-        max-width: 960px;
+        max-width: 80%;
         margin: 0 auto;
         box-shadow: 5px 5px 10px #595858;
     }
@@ -143,7 +145,13 @@ a:hover {
     nav ul li a {
         font-size: 1.5em;
         padding: 1.12em;
-    }    
+    }
+    
+    .logo1 {
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+
     #evenements {
     padding-top: 4em;
     }
