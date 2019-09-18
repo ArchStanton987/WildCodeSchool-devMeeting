@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 * {
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
+    font-family: "Quicksand";
 }
 body {
     margin: 0;
@@ -18,7 +20,7 @@ nav {
     width: 100%;
     background-color: #595858;
     box-shadow: 0px 0px 20px rgba(0,0,0, 0.2);
-    background: linear-gradient(to bottom, #595858, rgb(121, 121, 121), rgb(148, 148, 148)) ;
+    background:linear-gradient(90deg, #f7971e 0%,#ffd200 100% );
 }
 .header-layout {
     max-width: 960px;
@@ -46,7 +48,7 @@ nav a {
     font-size: 0.7em;
 }
 nav a:hover {
-    background: rgb(95, 95, 95);
+    color: rgb(95, 95, 95);
 }
 
 #evenements {
@@ -72,7 +74,7 @@ nav a:hover {
     background-color: #d3d3d32b;    
 }
 footer {
-	background-color:#595858;
+	background:linear-gradient(90deg, #f7971e 0%,#ffd200 100% );
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -81,7 +83,7 @@ footer {
     margin-top: 20%;
 }
 footer a {
-    color: lightgrey;
+    color: white;
     text-decoration: none;
     font-size: 0.8em;
 }
@@ -98,14 +100,14 @@ hr {
     padding: 10px;
 }
 a:hover {
-    color: white ;
+    color: lightgrey ;
 }
 #lienModal {
-    color: lightgrey;
+    color: white;
     font-size: 0.8em;
 }
 #lienModal:hover {
-    color: white;
+    color: lightgrey;
     cursor: pointer; 
 }
 .far:hover {
@@ -126,11 +128,11 @@ a:hover {
 }
 @media screen and (min-width:769px) {
     body {
-        background-color: lightgrey;
+        background:linear-gradient(to bottom, #56ab2f 0%,#a8e063 100% );
     }
     .layout {
         background-color: white;
-        max-width: 960px;
+        max-width: 80%;
         margin: 0 auto;
         box-shadow: 5px 5px 10px #595858;
     }
@@ -142,8 +144,14 @@ a:hover {
     }
     nav ul li a {
         font-size: 1.5em;
-        padding: 1.12em;
-    }    
+        padding: 0.9em;
+    }
+    
+    .logo1 {
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+
     #evenements {
     padding-top: 4em;
     }
