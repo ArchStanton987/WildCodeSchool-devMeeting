@@ -56,12 +56,6 @@ nav a:hover {
 }
 .title-assoc {
     text-align: center;
-}      
-.text-article {
-    text-align: justify;
-    width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 .article-assoc {
     display: flex;
@@ -73,6 +67,20 @@ nav a:hover {
     padding: 1em;
     background-color: #d3d3d32b;    
 }
+.name-assoc {
+    text-align: center;
+}
+.img-assoc {
+    max-width: 40%;
+}
+.text-article {
+    text-align: justify;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.links-assoc {
+}
 footer {
 	background:linear-gradient(90deg, #f7971e 0%,#ffd200 100% );
 	display: flex;
@@ -81,6 +89,7 @@ footer {
 	align-items: center;
 	padding: 15px;
     margin-top: 20%;
+    width: 100%;
 }
 footer a {
     color: white;
@@ -155,6 +164,9 @@ a:hover {
     #evenements {
     padding-top: 4em;
     }
+    .img-assoc {
+
+    }
     .article-assoc {
         width: 50%;
         display: flex;
@@ -163,6 +175,7 @@ a:hover {
         padding: 2%;
         box-shadow: 5px 5px 10px lightgrey;
         margin: 20px auto;
+        flex-wrap: auto;
     }
     .section-assoc {        
         margin-top: 5%;
