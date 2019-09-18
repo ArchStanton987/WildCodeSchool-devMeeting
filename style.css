@@ -40,10 +40,10 @@ nav ul {
     align-content: center;
 }
 nav a {
-    text-decoration: none;
-    color: lightgray;
-    padding: 0.5em;
-    font-size: 1em;
+    text-decoration: none;	
+    color: white;
+    padding: 0.7em;
+    font-size: 0.7em;
 }
 nav a:hover {
     background: rgb(95, 95, 95);
