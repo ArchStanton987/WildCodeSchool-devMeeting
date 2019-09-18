@@ -3,53 +3,48 @@
     font-family: sans-serif;
     scroll-behavior: smooth;
 }
-
-
-
 body {
     margin: 0;
     padding: 0;
     font-size: 12px;
 }
-
-header i {
-    color: lightgray;
-    font-size: 1em;
-    padding: 0.5em;
-}
-#headerOne {
-    text-decoration: none;
-    color: white;
-    padding: 0.em;
+.layout {
+    max-width: 960px;
 }
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5em;
     position: fixed;
     left: 0%;
     top: 0%;
     width: 100%;
-    background: linear-gradient(to bottom, #595858, rgb(121, 121, 121), rgb(148, 148, 148)) ;
+    background-color: #595858;
     box-shadow: 0px 0px 20px rgba(0,0,0, 0.2);
+    background: linear-gradient(to bottom, #595858, rgb(121, 121, 121), rgb(148, 148, 148)) ;
+}
+.header-layout {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 }
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
-nav ul li {
-    display: inline-block;
-}
-nav ul li a {
-    text-decoration: none;
+nav a {
+    text-decoration: none;	
     color: white;
     padding: 0.7em;
     font-size: 0.7em;
 }
-
 nav a:hover {
     background: rgb(95, 95, 95);
 }
@@ -57,18 +52,15 @@ nav a:hover {
 #evenements {
     padding-top: 3em;
 }
-
 .title-assoc {
     text-align: center;
-}
-      
+}      
 .text-article {
     text-align: justify;
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
 }
-
 .article-assoc {
     display: flex;
     flex-direction: column;
@@ -77,11 +69,8 @@ nav a:hover {
     border: solid #8080801a 1px;
     border-radius: 5px;
     padding: 1em;
-    background-color: #d3d3d32b;
-
-    
+    background-color: #d3d3d32b;    
 }
-
 footer {
 	background-color:#595858;
 	display: flex;
@@ -91,24 +80,20 @@ footer {
 	padding: 15px;
     margin-top: 20%;
 }
-
 footer a {
     color: lightgrey;
     text-decoration: none;
     font-size: 0.8em;
 }
-
 .fab {
 	color:white;
 	font-size: 3em;
 	padding-right: 5px;
 }
-
 hr {
     width: 60%;
     margin-bottom: 4em;
 }
-
 #divIcones {
     padding: 10px;
 }
@@ -149,13 +134,8 @@ a:hover {
         margin: 0 auto;
         box-shadow: 5px 5px 10px #595858;
     }
-    .header-layout {
-
-    }
-
     header nav {
         height: 5em;
-
     }
     header a {
         font-size: 2em;
@@ -163,20 +143,11 @@ a:hover {
     nav ul li a {
         font-size: 1.5em;
         padding: 1.12em;
-
-    }
-
-    #headerOne {
-        padding: 0.65em;
-    }
-    
-    
+    }    
     #evenements {
     padding-top: 4em;
     }
-
-
-  .article-assoc {
+    .article-assoc {
         width: 50%;
         display: flex;
         flex-direction: row;
@@ -184,18 +155,13 @@ a:hover {
         padding: 2%;
         box-shadow: 5px 5px 10px lightgrey;
         margin: 20px auto;
-        
-
     }
-    .section-assoc {
-        
+    .section-assoc {        
         margin-top: 5%;
         height: auto;
         margin-bottom: 0;
-        justify-content: center;
-        
+        justify-content: center;        
     }
-
     footer {
         margin-top: 0;
     }
