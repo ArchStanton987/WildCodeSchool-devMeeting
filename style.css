@@ -12,12 +12,6 @@ body {
     font-size: 12px;
 }
 
-header {
-    background: #595858;
-}
-
-header nav {}
-
 header i {
     color: lightgray;
     font-size: 1em;
@@ -25,8 +19,8 @@ header i {
 }
 #headerOne {
     text-decoration: none;
-    color: lightgray;
-    padding: 0.5em;
+    color: white;
+    padding: 0.em;
 }
 nav {
     display: flex;
@@ -38,7 +32,7 @@ nav {
     left: 0%;
     top: 0%;
     width: 100%;
-    background-color: #595858;
+    background: linear-gradient(to bottom, #595858, rgb(121, 121, 121), rgb(148, 148, 148)) ;
     box-shadow: 0px 0px 20px rgba(0,0,0, 0.2);
 }
 nav ul {
@@ -51,9 +45,13 @@ nav ul li {
 }
 nav ul li a {
     text-decoration: none;
-    color: lightgray;
-    padding: 0.5em;
+    color: white;
+    padding: 0.7em;
     font-size: 0.7em;
+}
+
+nav a:hover {
+    background: rgb(95, 95, 95);
 }
 
 #evenements {
@@ -160,11 +158,16 @@ a:hover {
 
     }
     header a {
-        font-size: 2.5em;
+        font-size: 2em;
     }
     nav ul li a {
-        font-size: 2em;
-        
+        font-size: 1.5em;
+        padding: 1.12em;
+
+    }
+
+    #headerOne {
+        padding: 0.65em;
     }
     
     
