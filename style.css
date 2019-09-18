@@ -48,7 +48,7 @@ nav a {
     font-size: 0.7em;
 }
 nav a:hover {
-    background: rgb(95, 95, 95);
+    color: rgb(95, 95, 95);
 }
 
 #evenements {
@@ -74,7 +74,7 @@ nav a:hover {
     background-color: #d3d3d32b;    
 }
 footer {
-	background-color:#595858;
+	background:linear-gradient(90deg, #f7971e 0%,#ffd200 100% );
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -83,7 +83,7 @@ footer {
     margin-top: 20%;
 }
 footer a {
-    color: lightgrey;
+    color: white;
     text-decoration: none;
     font-size: 0.8em;
 }
@@ -100,14 +100,14 @@ hr {
     padding: 10px;
 }
 a:hover {
-    color: white ;
+    color: lightgrey ;
 }
 #lienModal {
-    color: lightgrey;
+    color: white;
     font-size: 0.8em;
 }
 #lienModal:hover {
-    color: white;
+    color: lightgrey;
     cursor: pointer; 
 }
 .far:hover {
@@ -144,7 +144,7 @@ a:hover {
     }
     nav ul li a {
         font-size: 1.5em;
-        padding: 1.12em;
+        padding: 0.9em;
     }
     
     .logo1 {
