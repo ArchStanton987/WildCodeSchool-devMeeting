@@ -160,7 +160,7 @@ a:hover {
 
 @media screen and (min-width:769px) {
     body {
-        background: linear-gradient(to bottom, #56ab2f 0%, #a8e063 100%);
+        background:linear-gradient(to bottom, #56ab2fcb 0%,#a8e063a4 100% );
     }
     .layout {
         background-color: white;
@@ -178,9 +178,35 @@ a:hover {
         font-size: 1.5em;
         padding: 0.9em;
     }
-    .logo1 {
-        margin-top: 10%;
-        margin-left: 40%;
+    .divlogo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    .title-devmeet {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .title-devmeet2 {
+        text-align: center;
+        font-size: 2.8em;
+    }
+
+    .bras-long {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .title-evenement{
+        text-align: center;
+        margin-top: 8%;
     }
     #evenements {
         padding-top: 4em;
