@@ -212,6 +212,10 @@ a:hover {
         justify-content: center;
     }
 
+    .emoji-bras {
+        width: 5%;
+    }
+
     .title-evenement{
         text-align: center;
         margin-top: 8%;
