@@ -257,7 +257,22 @@ a:hover {
     #evenements {
         padding-top: 4em;
     }
-    .img-assoc {}
+    .article1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content-article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .img-assoc {
+       max-width: 50%;
+    }
     .article-assoc {
         width: 80%;
         display: flex;
