@@ -64,6 +64,7 @@ nav a:hover {
 
 .title-assoc {
     text-align: center;
+    font-style: 4em;
 }
 
 .article-assoc {
@@ -91,9 +92,14 @@ nav a:hover {
     padding-left: 5%;
     padding-right: 5%;
 }
-
-.links-assoc {}
-
+#lignegauche {
+    background-color: #ffd200;
+    width: 4px;
+    padding: 0;
+    margin: 0;
+}
+.links-assoc {
+}
 footer {
     background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
     display: flex;
@@ -120,6 +126,8 @@ footer a {
 hr {
     width: 80%;
     margin-bottom: 4em;
+    color: #ffd200;
+    size: 2;
 }
 
 #divIcones {
