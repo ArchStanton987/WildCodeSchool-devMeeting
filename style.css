@@ -198,7 +198,6 @@ a:hover {
 #aPropos {
     display: none;
     position: absolute;
-    bottom: 0%;
     left: 25%;
     background: white;
     width: 50%;
@@ -207,6 +206,10 @@ a:hover {
     padding-right: 1em;
     text-align: justify;
     box-shadow: 5px 5px 10px lightgrey;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 @media screen and (min-width:769px) {
@@ -258,6 +261,9 @@ a:hover {
     .title-evenement {
         text-align: center;
         margin-top: 8%;
+    }
+    .sousTitre {
+    width: 12%;
     }
     #evenements {
         padding-top: 4em;
