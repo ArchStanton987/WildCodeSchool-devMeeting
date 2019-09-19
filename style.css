@@ -46,6 +46,7 @@ nav ul {
     align-items: center;
     align-content: center;
 }
+
 nav a {
     text-decoration: none;
     color: white;
@@ -87,9 +88,11 @@ nav a:hover {
     text-align: center;
     font-size: 2.4em;
 }
-.triangle{
-   margin-right: 0.2em; 
+
+.triangle {
+    margin-right: 0.2em;
 }
+
 .article-assoc {
     display: flex;
     flex-direction: column;
@@ -110,7 +113,7 @@ nav a:hover {
 }
 
 .img-assoc {
-    max-width: 40%;
+    width: 65%;
 }
 
 .text-article {
@@ -163,7 +166,7 @@ footer a {
 .sousTitre {
     width: 25%;
     height: 4px;
-    color:orange;
+    color: orange;
     border: none;
     background-color: orange;
     margin-top: -1em;
@@ -175,6 +178,7 @@ footer a {
 
 a:hover {
     color: lightgrey;
+    text-decoration: underline;
 }
 
 #lienModal {
@@ -215,7 +219,7 @@ button:hover {
     .layout {
         background-color: white;
         max-width: 80%;
-        margin: 0 auto;
+        margin: 0 auto -2em;
         box-shadow: 5px 5px 10px #595858;
     }
     header nav {
@@ -232,12 +236,13 @@ button:hover {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding-top: 10%;
-        padding-bottom: 5%;
+        padding-top: 5%;
+        padding-bottom: 1%;
+        margin-top: 5em;
     }
     .title-devmeet {
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
         font-size: 3em;
         text-align: center;
     }
@@ -263,7 +268,22 @@ button:hover {
     #evenements {
         padding-top: 4em;
     }
-    .img-assoc {}
+    .article1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content-article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .img-assoc {
+       max-width: 50%;
+    }
     .article-assoc {
         width: 80%;
         display: flex;
