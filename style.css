@@ -64,7 +64,7 @@ nav a:hover {
 
 .title-assoc {
     text-align: center;
-    font-style: 4em;
+    font-size: 4em;
 }
 
 .article-assoc {
@@ -92,14 +92,16 @@ nav a:hover {
     padding-left: 5%;
     padding-right: 5%;
 }
+
 #lignegauche {
     background-color: #ffd200;
     width: 4px;
     padding: 0;
     margin: 0;
 }
-.links-assoc {
-}
+
+.links-assoc {}
+
 footer {
     background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
     display: flex;
@@ -127,7 +129,7 @@ hr {
     width: 80%;
     margin-bottom: 4em;
     color: #ffd200;
-    size: 2;
+    resize: 2;
 }
 
 #divIcones {
@@ -168,7 +170,7 @@ a:hover {
 
 @media screen and (min-width:769px) {
     body {
-        background:linear-gradient(to bottom, #56ab2fcb 0%,#a8e063a4 100% );
+        background: linear-gradient(to bottom, #56ab2fcb 0%, #a8e063a4 100%);
     }
     .layout {
         background-color: white;
@@ -193,29 +195,24 @@ a:hover {
         padding-top: 10%;
         padding-bottom: 5%;
     }
-
     .title-devmeet {
         padding-top: 5%;
         padding-bottom: 5%;
         font-size: 3em;
         text-align: center;
     }
-
     .title-devmeet2 {
         text-align: center;
         font-size: 2.8em;
     }
-
     .bras-long {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-
     .emoji-bras {
         width: 5%;
     }
-
     .title-evenement{
         text-align: center;
         margin-top: 8%;
@@ -232,7 +229,7 @@ a:hover {
         padding: 2%;
         box-shadow: 5px 5px 10px lightgrey;
         margin: 20px auto;
-        flex-wrap: auto;
+        flex-wrap: wrap;
     }
     .section-assoc {
         margin-top: 5%;
