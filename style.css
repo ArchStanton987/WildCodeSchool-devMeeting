@@ -66,10 +66,12 @@ nav a:hover {
     text-align: center;
     font-size: 2.4em;
 }
-.triangle{
+
+.triangle {
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto
+}
 
 .article-assoc {
     display: flex;
@@ -81,9 +83,11 @@ nav a:hover {
     padding: 1em;
     background-color: #d3d3d32b;
 }
+
 .article-assoc img {
     max-width: 100%;
 }
+
 .name-assoc {
     text-align: center;
 }
@@ -97,6 +101,7 @@ nav a:hover {
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
+    font-size: 100%;
 }
 
 #lignegauche {
@@ -219,7 +224,7 @@ a:hover {
     .emoji-bras {
         width: 5%;
     }
-    .title-evenement{
+    .title-evenement {
         text-align: center;
         margin-top: 8%;
     }
