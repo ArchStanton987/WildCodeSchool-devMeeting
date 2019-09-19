@@ -57,6 +57,28 @@ nav a:hover {
     color: rgb(95, 95, 95);
 }
 
+.divlogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5.5em;
+    padding-bottom: 5%;
+}
+
+.title-devmeet {
+    text-align: center;
+}
+
+.bras-long {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emoji-bras {
+    width: 20%;
+}
+
 #evenements {
     padding-top: 3em;
 }
