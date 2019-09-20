@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 * {
     box-sizing: border-box;
     font-family: sans-serif;
@@ -79,15 +80,25 @@ nav a:hover {
 .emoji-bras {
     width: 20%;
 }
+.anchor {
+    position: relative;
+}
+.anchor a {
+    position: absolute;
+    top: -1em;
+}
+.anchor h2 {
+    position: absolute;
+}
 
 #evenements {
-    padding-top: 3em;
+    padding-top: 0em;
 }
 
 .title-assoc {
     text-align: center;
     font-size: 2.4em;
-    margin-top: 5em;
+    margin-top: 2em;
 }
 
 .triangle {
@@ -141,7 +152,6 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    margin-top: 20%;
     width: 100%;
 }
 
@@ -272,11 +282,12 @@ button:hover {
         text-align: center;
         margin-top: 8%;
     }
+    .title-assoc {
+        margin-top: 3em;
+    }
+
     .sousTitre {
     width: 12%;
-    }
-    #evenements {
-        padding-top: 4em;
     }
     .article1 {
         display: flex;

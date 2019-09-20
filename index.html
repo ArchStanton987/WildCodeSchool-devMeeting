@@ -19,8 +19,8 @@
             <nav>
                 <div class="header-layout">
                     <ul>
-                        <li><a href="#evenements">Evènements</a></li>
-                        <li><a href="#associations">Associations</a></li>
+                        <li><a href="#anchor-evenements">Evènements</a></li>
+                        <li><a href="#anchor-associations">Associations</a></li>
                     </ul>
                     <a href="index.html" id="headerOne">DevMeeting.com</a>
                 </div>
@@ -34,7 +34,9 @@
             <h1 class="title-devmeet2">On a le bras long!</h1>
             <img class="emoji-bras" src="img/bras.png" alt="">
         </div>
-
+        <div class="anchor">
+            <a id="anchor-evenements"></a>
+        </div>
         <h2 class="title-assoc" id="evenements"><img src="img/triangle.png" alt="triangle" class="triangle">Evènements</h2>
         <hr class="sousTitre">
         <section class="section-assoc">
@@ -80,8 +82,10 @@
             </div>
         </article>
         </section>
-        
-        <h2 class="title-assoc" ><img src="img/triangle.png" alt="triangle" class="triangle">Associations</h2>
+        <div class="anchor">
+            <a id="anchor-associations">
+        </div>
+        <h2 class="title-assoc" id="associations"><img src="img/triangle.png" alt="triangle" class="triangle">Associations</h2>
         <hr class="sousTitre">
 
         <section class="section-assoc">
@@ -182,10 +186,8 @@
     function modal() {
         document.getElementById('aPropos').style.display = 'block';
     }
-
     function closeModal() {
         document.getElementById('aPropos').style.display = 'none';
     }
-
     document.getElementById('close').addEventListener('click', closeModal);
 </script>
