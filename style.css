@@ -234,6 +234,7 @@ button:hover {
 @media screen and (min-width:769px) {
     body {
         background: linear-gradient(to bottom, #56ab2fcb 0%, #a8e063a4 100%);
+        
     }
     .layout {
         background-color: white;
@@ -298,8 +299,10 @@ button:hover {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        font-size: 17px;
 
     }
+
 
     .img-assoc {
        max-width: 50%;
@@ -320,6 +323,7 @@ button:hover {
         margin-bottom: 0;
         justify-content: center;
     }
+
     footer {
         margin-top: 0;
     }
