@@ -130,7 +130,7 @@ nav ul li a {
 }
 .anchor a {
     position: absolute;
-    top: -1em;
+    top: -3em;
 }
 .anchor h2 {
     position: absolute;
@@ -204,10 +204,6 @@ footer a {
     color: white;
     font-size: 3em;
     padding-right: 5px;
-}
-
-#associations {
-    
 }
 
 .sousTitre {
@@ -319,6 +315,10 @@ button:hover {
     }
     header a {
         font-size: 2em;
+    }
+    .anchor a {
+        position: absolute;
+        top: -5em;
     }
     nav ul li a {
         font-size: 1.5em;
