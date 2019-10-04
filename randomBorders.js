@@ -14,7 +14,7 @@ function randomNumber (num) {
 // Fonction modifiant la taille de la bordure gauche + couleur aléatoire
 function randomLeftBorders() {
     for (let i = 0 ; i < articles.length ; i++) {
-        articles[i].style.borderWidth = "1px 1px 1px 4px"
+        articles[i].style.borderWidth = "1px 1px 1px 12px"
         articles[i].style.transition = "border-color 2s"
         articles[i].style.borderColor = `#8080801a #8080801a #8080801a ${borderColors[randomNumber(borderColors.length)]}`
         }
