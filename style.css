@@ -25,6 +25,7 @@ nav {
     background-color: #595858;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
+    z-index: 5000;
 }
 #hamburger{
     position: fixed;
@@ -59,7 +60,6 @@ nav {
     padding-left: 0.6em;
 
 }
-
 #close-burger {
     background-color: #f7951e00;
     border: none;
@@ -96,12 +96,12 @@ nav a {
     padding: 0.7em;
     font-size: 1.2em;
 }
-nav ul li a {
-    display: none;
-}
 
 nav a:hover {
     color: rgb(95, 95, 95);
+}
+nav ul li a {
+    display: none;
 }
 
 .divlogo {
@@ -156,9 +156,8 @@ nav a:hover {
     align-items: center;
     margin: 2em 0.5em;
     border: solid #8080801a 1px;
-    border-radius: 5px;
     padding: 1em;
-    background-color: #d3d3d32b;
+    
 }
 
 .article-assoc img {
@@ -181,14 +180,9 @@ nav a:hover {
     font-size: 100%;
 }
 
-#lignegauche {
-    background-color: #ffd200;
-    width: 4px;
-    padding: 0;
-    margin: 0;
-}
 
-.links-assoc {}
+
+
 
 footer {
     background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
@@ -261,6 +255,13 @@ a:hover {
     box-shadow: 5px 5px 10px lightgrey;
 }
 
+.card-button{
+        background-color: white;
+        padding: 5px;
+        border: solid 2px black;
+    
+    }
+
 button:hover {
     cursor: pointer;
 }
@@ -275,20 +276,46 @@ button:hover {
     flex-direction: column;
     align-items: center;
 }
+.paddingLeftD {
+    font-size: 1em;
+}
+#texteTitre{
+
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    }
+    
+.imgTitle{
+    
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+.carre{
+    width: 10px;
+}
+.card-title{
+    text-align: center;
+}
 
 @media screen and (min-width:769px) {
-    body {
-        background: linear-gradient(to bottom, #56ab2fcb 0%, #a8e063a4 100%);
-        
-    }
+
     .layout {
         background-color: white;
         max-width: 80%;
         margin: 0 auto -2em;
-        box-shadow: 5px 5px 10px #595858;
+        
     }
     header nav {
         height: 5em;
+        z-index: 1000;
     }
     header a {
         font-size: 2em;
@@ -301,7 +328,6 @@ button:hover {
     #hamburger-button{
         display: none;
     }
-
     #close-burger{
         display: none;
     }
@@ -372,6 +398,7 @@ button:hover {
         box-shadow: 5px 5px 10px lightgrey;
         margin: 20px auto;
         flex-wrap: wrap;
+        border-width: 1px 1px 1px 1px;
     }
     .section-assoc {
         margin-top: 5%;
@@ -379,7 +406,52 @@ button:hover {
         margin-bottom: 0;
         justify-content: center;
     }
+    .section-event{
+        position: relative;
+    }
 
+    .card-button{
+        background-color: white;
+        padding: 5px;
+        border: solid 2px black;
+        opacity: 0;
+        transition: 0s;
+    }
+    
+    .card-article{
+        position: relative;
+    }
+    .carre{
+        width: 15px;
+        margin-right :5px;
+        margin-left: 5px;
+        position: relative;
+        opacity: 0 ;
+        transition: 0s;
+    }
+    .card-description{
+        opacity: 0.5;
+        padding-left: 5%
+    }
+    .imgTitle{
+        text-align: center;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #texteTitre{
+
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 5rem;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        
+    }
+    
     footer {
         margin-top: 0;
     }
