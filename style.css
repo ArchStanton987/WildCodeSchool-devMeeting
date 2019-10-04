@@ -32,6 +32,7 @@ nav {
     left: -500px;
     background-color: #f79c2d;
     top: 3.2em;
+    z-index: 999;
         
 }
 #hamburger ul {
