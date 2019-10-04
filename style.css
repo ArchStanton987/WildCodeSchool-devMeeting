@@ -60,6 +60,15 @@ nav {
 
 }
 
+#close-burger {
+    background-color: #f7951e00;
+    border: none;
+    font-size: 2em;
+    color: white;
+    padding-left: 0.6em;
+    display: none;
+}
+
 .header-layout {
     max-width: 960px;
     margin: 0 auto;
@@ -290,6 +299,10 @@ button:hover {
         display: flex;
     }
     #hamburger-button{
+        display: none;
+    }
+
+    #close-burger{
         display: none;
     }
     #hamburger{
